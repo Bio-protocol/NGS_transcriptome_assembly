@@ -8,7 +8,7 @@ cat trinity_out_dir/Trinity.fasta trinity_out_dir/Trinity-GG.fasta > Trinity_tra
 ~/soft/PASApipeline-pasa-v2.4.1/Launch_PASA_pipeline.pl \
        -c alignAssembly.config \
        -C -R \
-       -g Vunguiculata_540_v1.0.fa  \
+       -g input/Vunguiculata_540_v1.0.fa  \
        -t Trinity_transcripts.fasta \
        --TDN tdn.accs \
        --trans_gtf res_SRR5645583_stringtie.gtf \
